@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<htm>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="assets/css/quiz.css">
+	<title>Quiz</title>
+  <script src="assets/js/questions.js"></script>
+  <script src="assets/js/quiz.js"></script>
+  <script>
+    // Start quiz
+    window.onload = function () {
+      Quiz.init()
+    }
+  </script>
+</head>
+<body>
+
+	<h1>What is the meaning of </h1>
+<div class="quiz-container">
+  <div id="quiz"></div>
+</div>
+
+<button id="previous">Previous Question</button>
+<button id="next">Next Question</button>
+<button id="submit">Submit Quiz</button>
+<div id="results"></div>
+ <!--<button type="button" onclick="printJS({ printable: 'results', type: 'html', header: 'St. Anthony Examination Result' })">
+    Print Result Now
+ </button>-->
+<script src="https://cdn.jsdelivr.net/pouchdb/5.4.5/pouchdb.min.js"></script>
+<script src="https://printjs-4de6.kxcdn.com/print.min.js"></script>
+<script src="https://printjs-4de6.kxcdn.com/print.min.css"></script>
+
+</body>
+</html>
+
+
+
+
+
